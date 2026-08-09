@@ -27,6 +27,8 @@ export class LoginPage{
 
  async clickLogin(): Promise<void> {
   await this.btnLogin.click();
+
+
 }
 
 }

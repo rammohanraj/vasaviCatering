@@ -8,7 +8,6 @@ export class LoginPage{
  readonly btnLogin:Locator;
 
  constructor(page:Page){
-
   this.page=page;
 
   this.txtEmailId=this.page.locator("#username");
@@ -22,13 +21,9 @@ export class LoginPage{
 
     await this.txtEmailId.fill(emailId);
     await this.txtPassword.fill(password);
-    
 }
 
  async clickLogin(): Promise<void> {
   await this.btnLogin.click();
-
-
 }
-
 }

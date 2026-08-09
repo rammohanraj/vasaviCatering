@@ -1,0 +1,26 @@
+{
+    "default":{
+        "loader" : ["ts-node/esm"],
+        "paths": [
+            "features/FaceBookLoginPage.feature",
+            "features/SearchHotel.feature"
+                  ],
+        "import" : ["stepDefinition/**/*.ts"],
+        "format" : [
+            "progress",
+            "html:reports/report.html",
+            "json:reports/report.json",
+            "ndjson:reports/results.ndjson",
+            "junit:reports/results.xml",
+            "message:reports/results.ndjson"
+               ],
+        "publishQuiet": true,
+        "parallel": 0,
+        "retry": 0,
+        "dryRun": false,
+        "failFast": true
+        
+    }
+
+    
+}

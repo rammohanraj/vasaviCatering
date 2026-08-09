@@ -1,0 +1,198 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-verify-the-login-page-in-adactin;login-with-different-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login with different credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3520300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 686400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6148846099
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the Adactin Login page",
+            "match": {
+              "location": "stepDefinition\\loginStep.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 163049899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters \"mohanraj8881\" and \"8R558Y\"",
+            "match": {
+              "location": "stepDefinition\\loginStep.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 686834800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks the Login button",
+            "match": {
+              "location": "stepDefinition\\loginStep.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 440597799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should see \"Login successful\"",
+            "match": {
+              "location": "stepDefinition\\loginStep.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 275400
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-verify-the-login-page-in-adactin",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To verify the login page in Adactin",
+    "tags": [],
+    "uri": "features\\FaceBookLoginPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-verify-the-ability-to-search-hotel-in-adactin;search-hotel-with-valid-details",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search hotel with valid details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 314200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 342900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 468863300
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the Adactin Search Hotel page",
+            "match": {
+              "location": "stepDefinition\\searchHotelStep.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 111063000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the required details",
+            "match": {
+              "location": "stepDefinition\\searchHotelStep.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 333728399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user clicks the Search button",
+            "match": {
+              "location": "stepDefinition\\searchHotelStep.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 314947200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the search results",
+            "match": {
+              "location": "stepDefinition\\searchHotelStep.ts:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 190800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-verify-the-ability-to-search-hotel-in-adactin",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To verify the ability to search hotel in Adactin",
+    "tags": [],
+    "uri": "features\\SearchHotel.feature"
+  }
+]

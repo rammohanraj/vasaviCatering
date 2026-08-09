@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuite name="Cucumber" time="11.544" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-08T10:08:38.165Z">
+  <testcase classname="To verify the login page in Adactin" name="Login with different credentials - #1.1" time="7.462">
+    <system-out><![CDATA[Given the user is on the Adactin Login page.................................passed
+When the user enters "mohanraj8881" and "8R558Y"............................passed
+And the user clicks the Login button........................................passed
+Then the user should see "Login successful".................................passed]]></system-out>
+  </testcase>
+  <testcase classname="To verify the ability to search hotel in Adactin" name="Search hotel with valid details" time="1.24">
+    <system-out><![CDATA[Given the user is on the Adactin Search Hotel page..........................passed
+When the user enters the required details...................................passed
+And the user clicks the Search button.......................................passed
+Then the user should see the search results.................................passed]]></system-out>
+  </testcase>
+</testsuite>

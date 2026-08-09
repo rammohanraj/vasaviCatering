@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": [
+      "node"
+      // ,@playwright/test"
+    ],
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "tests/**/*.ts",
+    "features/**/*.ts",
+    "stepDefinition/**/*.ts",
+    "pages/**/*.ts",
+    "utility/**/*.ts"
+  ]
+}
